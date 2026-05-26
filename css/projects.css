@@ -1,0 +1,55 @@
+/* projects.css */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.project-link {
+  color: white;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.check-detail {
+  display: inline-block;
+  margin-top: 15px;
+  color: #38bdf8;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card:hover .check-detail {
+  transform: translateX(5px);
+}

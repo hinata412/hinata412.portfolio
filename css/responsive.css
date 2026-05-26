@@ -1,0 +1,121 @@
+/* responsive.css */
+
+@media (max-width: 1024px) {
+
+  section {
+    padding: 70px 8%;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  /* 共通 */
+
+  section {
+    padding: 60px 6%;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  /* TOP */
+
+  header {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* ABOUT */
+
+  .about p {
+    font-size: 0.95rem;
+  }
+
+  /* SKILLS */
+
+  .skills {
+    gap: 10px;
+  }
+
+  .skill {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+  }
+
+  /* PROJECT */
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    height: 220px;
+  }
+
+  .card-content {
+    padding: 18px;
+  }
+
+  .card-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .card-content p {
+    font-size: 0.92rem;
+  }
+
+  .check-detail {
+    font-size: 0.85rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    font-size: 0.9rem;
+    padding: 25px 15px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  section {
+    padding: 50px 5%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+}

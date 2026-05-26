@@ -1,0 +1,17 @@
+/* about.css */
+
+section {
+  padding: 80px 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  border-left: 5px solid #38bdf8;
+  padding-left: 15px;
+}
+
+.about p {
+  max-width: 800px;
+  color: #d1d5db;
+}
